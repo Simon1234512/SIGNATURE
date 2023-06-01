@@ -1,0 +1,80 @@
+@import "../../scss/variable";
+
+.signature6 {
+  width: 49.5rem;
+  &-container {
+    display: flex;
+    align-items: center;
+    box-shadow: 4.54087px 4.54087px 9.08175px rgba(110, 196, 207, 0.5);
+    &-profile {
+      background-color: $primary;
+      padding: 2.2rem 5.5rem;
+      & > img {
+        height: 11.3rem;
+        width: 11.3rem;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      &-icons {
+        margin-top: 1.135rem;
+        & > div {
+          background-color: white;
+          padding: 0.3rem 0.4rem;
+
+          border-radius: 50%;
+          &:not(:last-child) {
+            margin-right: 0.567rem;
+          }
+          & > * {
+            font-size: 1.2rem;
+            color: $primary;
+          }
+        }
+      }
+    }
+    &-content {
+      padding-left: 4.541rem;
+      & > h3 {
+        font-size: 1.7rem;
+        font-weight: 500;
+      }
+      & > p {
+        font-size: 0.8rem;
+      }
+      &-line {
+        border-bottom: 0.7px solid black;
+        margin-top: 0.568rem;
+        margin-bottom: 1.249rem;
+      }
+      &-items {
+        & > * {
+          &:not(:last-child) {
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+      &-subscribe {
+        margin-top: 1.134rem;
+        background-color: $primary;
+        color: white;
+        padding: 0.6rem 2.87rem;
+        border-radius: 3rem;
+        & > p {
+          margin-right: 2rem;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+.signature6-item {
+  & > img {
+    width: 1.135rem;
+    height: 1.135rem;
+    border-radius: 50%;
+    margin-right: 0.681rem;
+  }
+  & > p {
+    font-size: 0.8rem;
+  }
+}
